@@ -31,6 +31,7 @@ function Header() {
                 </nav>
             </header>
 
+            {/* Start Responsive Mobile */}
             <div className={`fixed top-0 right-0 h-full bg-primary w-1/2 p-5 rounded-l-lg z-40 transition-transform transform md:hidden text-xl ps-8 ${toggleNavbar ? '-translate-x-0' : 'translate-x-full'}`}>
                 <MaterialUISwitch onChange={toggleColorMode}  />
                 <a className="text-light mt-8 mb-7 block duration-500 hover:text-secondary" href="">Home</a>
@@ -38,6 +39,7 @@ function Header() {
                 <a className="text-light mb-7 block duration-500 hover:text-secondary" href="">Gallery</a>
                 <a className="text-light mb-7 block duration-500 hover:text-secondary" href="">Contact</a>
             </div>
+            {/* End Responsive Mobile */}
         </>
     );
 }
