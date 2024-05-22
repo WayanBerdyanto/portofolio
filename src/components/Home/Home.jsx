@@ -4,7 +4,7 @@ function Home() {
         <section id="home" className="py-8 px-12">
             <div className="container">
                 <div className="flex flex-wrap">
-                    {/* Start Cta Profile */}c
+                    {/* Start Cta Profile */}
                     <div className="w-full self-center lg:w-1/2 px-2 py-5">
                         <h1 className="text-3xl font-semibold text-dark dark:text-light">I'am Web Developer</h1>
                         <h3 className="text-3xl font-semibold text-dark dark:text-light">Wayan Berdyanto</h3>
