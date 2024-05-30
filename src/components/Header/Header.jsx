@@ -33,7 +33,7 @@ function Header() {
                         <span className="block text-dark dark:text-light">Berdyanto</span>
                     </div>
 
-                    <div className="text-dark hidden md:inline-block font-semibold text-xl">
+                    <div className="text-dark hidden md:inline-block font-semibold text-lg">
                         <MaterialUISwitch onChange={toggleColorMode} className="mr-14" />
                         <a className="mt-10 mr-14 duration-500 dark:text-light hover:text-primary dark:hover:text-primary" href="#home">Home</a>
                         <a className="mr-14 duration-500 dark:text-light hover:text-primary dark:hover:text-primary" href="#about">About</a>
